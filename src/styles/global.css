@@ -1,6 +1,7 @@
 html {
   background-color: black;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
+  color: white;
 }
 
 body {
@@ -9,6 +10,15 @@ body {
   max-width: 80ch;
   padding: 1rem;
   line-height: 1.5;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 * {
@@ -20,18 +30,27 @@ h1 {
   font-size: 2.5rem;
 }
 
+#logo a {
+  color: white;
+  font-size: 1.25rem;
+}
+
+
 /* nav styles */
 .hamburger {
   padding-right: 20px;
   cursor: pointer;
+  position: absolute;
+  right: 20px;
 }
 
 .hamburger .line {
   display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #ff9776;
+  width: 28px;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 4px;
+  background-color: white;
 }
 
 .nav-links {
@@ -48,13 +67,12 @@ h1 {
   text-align: center;
   padding: 10px 0;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .nav-links a:hover, a:focus {
-  background-color: #ff9776;
+  background-color: gray;
 }
 
 .expanded {
@@ -64,7 +82,7 @@ h1 {
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
-    display: block;
+    display:block;
     position: static;
     width: auto;
     background: none;
