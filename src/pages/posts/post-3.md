@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Third Blog Post
+title: '#3'
 author: Astro Learner
-description: "I had some challenges, but asking in the community really helped!"
+description: "After learning some Astro, I couldn't stop!"
 image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "Thumbnail of Astro rays."
-pubDate: 2022-07-15
-tags: ["astro", "learning in public", "setbacks", "community"]
+    url: "https://docs.astro.build/assets/arc.webp"
+    alt: "Thumbnail of Astro arcs."
+pubDate: 2022-07-08
+tags: ["astro", "blogging", "learning in public", "successes"]
 ---
-It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
+"então…gravei." #1

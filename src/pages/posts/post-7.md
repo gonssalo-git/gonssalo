@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: '#1'
+title: '#7'
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image:
