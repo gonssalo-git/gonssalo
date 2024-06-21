@@ -1,7 +1,21 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --backgroundcolor: white;
+    --textcolor: black;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --backgroundcolor: black;
+    --textcolor: white;
+  }
+}
+
 html {
-  background-color: black;
+  background-color: var(--backgroundcolor);
   font-family: Helvetica, sans-serif;
-  color: white;
+  color: var(--textcolor);
 }
 
 body {
@@ -14,7 +28,7 @@ body {
 
 p {
   display: block;
-  color: white;
+  color: var(--textcolor);
   font-size: 1rem;
 }
 
@@ -24,14 +38,14 @@ blockquote {
 }
 
 a {
-  color: white;
+  color: var(--textcolor);
   text-decoration: none;
-  text-decoration-color: black;
+  text-decoration-color: var(--backgroundcolor);
   transition:text-decoration-color 0.5s;
 }
 
 a:hover {
-  text-decoration-color: white;
+  text-decoration-color: var(--textcolor);
   text-decoration: underline;
 }
 
@@ -45,7 +59,7 @@ h1 {
 }
 
 #logo a {
-  color: white;
+  color: var(--textcolor);
   font-size: 1.25rem;
   font-weight: bold;
   cursor: pointer;
@@ -57,7 +71,7 @@ li {
 }
 
 button {
-  color: white;
+  color: var(--textcolor);
   font-size: 2rem;
   width: fit-content;
 }
@@ -76,7 +90,7 @@ button {
   height: 4px;
   border-radius: 2px;
   margin-bottom: 4px;
-  background-color: white;
+  background-color: var(--textcolor);
 }
 
 .nav-links {
@@ -84,7 +98,7 @@ button {
   width: 100%;
   position: fixed;
   z-index: 1;
-  background-color: #000000;
+  background-color: var(--backgroundcolor);
   display: none;
   margin-left: 0;
   padding-top: 0px;
@@ -95,7 +109,7 @@ button {
   display: flex;
   text-align: left;
   width: fit-content;
-  padding: 5px 10px;
+  padding: 5px 0px;
   margin-left: 0rem;
   text-decoration: none;
   font-size: 1rem;
@@ -103,7 +117,7 @@ button {
 }
 
 .nav-links a:hover, a:focus {
-  background-color: gray;
+  text-decoration: underline;
   border-radius: 20px;
 }
 
@@ -113,10 +127,10 @@ button {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: black;
+  background-color: var(--backgroundcolor);
   cursor: pointer;
   width: 100%;
-  padding: 0.5rem 0;
+  padding: 0;
   border: none;
   text-align: left;
   outline: none;
@@ -162,7 +176,7 @@ top: 0;
   .nav-links a {
     display: inline-block;
     width: fit-content;
-    padding: 5px 10px;
+    padding: 5px 0px;
     margin-left: 0;
   }
 
