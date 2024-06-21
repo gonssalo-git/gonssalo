@@ -49,6 +49,10 @@ a:hover {
   text-decoration: underline;
 }
 
+ul {
+  width: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -130,7 +134,7 @@ button {
   background-color: var(--backgroundcolor);
   cursor: pointer;
   width: 100%;
-  padding: 0;
+  padding: 10px 0px;
   border: none;
   text-align: left;
   outline: none;
@@ -156,8 +160,12 @@ top: 0;
 
 @media screen and (min-width: 636px) {
   
- p {
+  p {
     max-width: 800px;
+  }
+
+  ul {
+    max-width: 1920px;
   }
 
   blockquote {
