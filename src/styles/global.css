@@ -26,9 +26,12 @@ blockquote {
 a {
   color: white;
   text-decoration: none;
+  text-decoration-color: black;
+  transition:text-decoration-color 0.5s;
 }
 
 a:hover {
+  text-decoration-color: white;
   text-decoration: underline;
 }
 
@@ -51,6 +54,12 @@ h1 {
 li {
   font-size: 1rem;
   list-style-type:none ;
+}
+
+button {
+  color: white;
+  font-size: 2rem;
+  width: fit-content;
 }
 
 /* nav styles */
@@ -100,6 +109,33 @@ li {
 
 .expanded {
   display: unset;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: black;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0.5rem 0;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight: normal;
+  transition: font-weight 0.1s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+font-weight: bold;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: none;
+  max-height: 0;
+  overflow: hidden;
+  background-color: none;
+  transition: max-height 0.2s ease-out;
 }
 
 @media screen and (min-width: 636px) {
