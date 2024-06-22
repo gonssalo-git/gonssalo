@@ -1,12 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: '#3'
-author: Astro Learner
-description: "After learning some Astro, I couldn't stop!"
+title: '#11 - Vídeo-scroll de texto'
+description: "2K, a preto e branco, sem som"
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
-    alt: "Thumbnail of Astro arcs."
-pubDate: 2022-07-08
-tags: ["astro", "blogging", "learning in public", "successes"]
+    url: "https://cdn.myportfolio.com/07fce5586a4e41130ae743b0101c1995/8aa37afd-adb1-471e-8a69-0df08a39bb46_rw_1920.jpeg?h=1100d9797fe4a2ebace5b8c5b2af716b"
+    alt: "Pessoas em frente a um ecrã claro numa sala escura"
 ---
-"então…gravei." #1

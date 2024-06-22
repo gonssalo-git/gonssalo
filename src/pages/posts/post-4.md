@@ -1,12 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: '#4'
-author: Astro Learner
-description: "After learning some Astro, I couldn't stop!"
+title: '#10 - 37 impressões com texto de cada gravação'
+description: "Impressão a jato de tinta sobre papel"
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
-    alt: "Thumbnail of Astro arcs."
-pubDate: 2022-07-08
-tags: ["astro", "blogging", "learning in public", "successes"]
+    url: "https://cdn.myportfolio.com/07fce5586a4e41130ae743b0101c1995/3430498f-8845-41f6-991f-461a13122996_rw_1920.jpg?h=c5c8ca01eeb6887a50f059485c145277"
+    alt: "fotografia de cartazes de papel pendurados numa cisterna com uma pessoa entre os mesmos"
 ---
-"então…gravei." #1
