@@ -80,6 +80,13 @@ button {
   width: fit-content;
 }
 
+.landing {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
 /* nav styles */
 .hamburger {
   padding-right: 20px;
